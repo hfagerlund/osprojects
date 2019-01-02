@@ -1,0 +1,9 @@
+*~
+!.gitignore
+*.aux
+*.bbl
+*.blg
+*.dvi
+*.log
+*.out
+*.txt
