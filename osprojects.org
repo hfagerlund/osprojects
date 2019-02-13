@@ -30,9 +30,13 @@
   This repository contains new feature development continued from the Jupyter version \cite{jupyter}.
 - *mkdocs-docskimmer*
   \paragraph{}
-  docSkimmer is an accessible, responsive, minimalist theme originally built for the static documentation site-generator MkDocs. Visit the [[http://bitsof.bytesofdesign.com/mkdocs-docskimmer/][documentation site]].
+  docSkimmer is an accessible, responsive, minimalist theme originally built for the static documentation site-generator MkDocs \cite{mkdocs-docskimmer}. Visit the [[http://bitsof.bytesofdesign.com/mkdocs-docskimmer/][documentation site]].
   \paragraph{}
   The docSkimmer theme has also been ported for Jekyll.
+- *mkdocs-docstyler-plugin*
+  \paragraph{}
+  docstyler is a plugin for MkDocs that adds persistent, preferred
+  and/or alternate stylesheet links to custom MkDocs themes \cite{mkdocs-docstyler-plugin}.
 - *jekyll-docskimmer-theme*
    \paragraph{}
   jekyll-docskimmer-theme is the official port of [[https://github.com/hfagerlund/mkdocs-docskimmer][docSkimmer theme]] to Jekyll.
