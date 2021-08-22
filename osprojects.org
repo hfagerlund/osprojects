@@ -6,7 +6,6 @@
 #+OPTIONS: author:t c:nil creator:comment d:(not "LOGBOOK") date:t
 #+OPTIONS: e:t email:nil f:t inline:t num:t p:nil pri:nil stat:t
 #+OPTIONS: tags:t tasks:t tex:t timestamp:t toc:nil todo:t |:t
-#+CREATOR: Emacs 24.5.1 (Org mode 8.2.10)
 #+DESCRIPTION:
 #+EXCLUDE_TAGS: noexport
 #+KEYWORDS:
@@ -23,6 +22,12 @@
 #+BIBLIOGRAPHY: opensource-bib plain
 
 * Projects by @hfagerlund
+- *erlang-experiments*
+   \paragraph{}
+   The groundwork for a Dockerized Erlang app \cite{erlang}.
+- *hellofromlua_rock*
+   \paragraph{}
+   A custom Lua rock. \cite{luarock}. Usage is shown in the hello-lua demo \cite{lua}.
 - *machine-learning-classifier-iris*
   \paragraph{}
   A comparison of machine learning algorithms for making predictions written in Python (v3.7) and using a built-in dataset included with scikit-learn \cite{machinelearning}. Data visualizations are also included.
@@ -30,31 +35,43 @@
   This repository contains new feature development continued from the Jupyter version \cite{jupyter}.
 - *mkdocs-docskimmer*
   \paragraph{}
-  docSkimmer is an accessible, responsive, minimalist theme originally built for the static documentation site-generator MkDocs \cite{mkdocs-docskimmer}. Visit the [[http://bitsof.bytesofdesign.com/mkdocs-docskimmer/][documentation site]].
+  docSkimmer is an accessible, responsive, minimalist theme originally built for the static documentation site-generator MkDocs \cite{mkdocs-docskimmer}. A live demo is available at [[http://bitsof.bytesofdesign.com/mkdocs-docskimmer/][documentation site]].
   \paragraph{}
-  The docSkimmer theme has also been ported for Jekyll.
+  The docSkimmer theme has also been ported for Jekyll \cite{jekyll-docskimmer}.
 - *mkdocs-docstyler-plugin*
   \paragraph{}
   docstyler is a plugin for MkDocs that adds persistent, preferred
   and/or alternate stylesheet links to custom MkDocs themes \cite{mkdocs-docstyler-plugin}.
 - *jekyll-docskimmer-theme*
    \paragraph{}
-  jekyll-docskimmer-theme is the official port of [[https://github.com/hfagerlund/mkdocs-docskimmer][docSkimmer theme]] to Jekyll.
+  jekyll-docskimmer-theme is the official port of [[https://github.com/hfagerlund/mkdocs-docskimmer][docSkimmer theme]] to Jekyll \cite{jekyll-docskimmer}.
 - *strip_anchors*
    \paragraph{}
    Source code for the custom strip_anchors Twig extension. This repository shows how the filter can be used in a Symfony 4 project to transform HTML content into valid RSS content for a feed \cite{stripanchors}.
 - *elections-carousel-component*
    \paragraph{}
    This project is a component-based carousel presentation of election results data from a JSON API. Built using React and Webpack \cite{elections-carousel-component}.
+- *elm-in-progress*
+   \paragraph{}
+   Experimentation in Elm v0.19.0.
+    \cite{elm}.
 - *hfagerlund.github.io*
    \paragraph{}
    My GitHub Pages site which currently serves as a table of contents listing of my open-source projects on GitHub \cite{ghpages}.
+- *osprojects*
+   \paragraph{}
+   A catalog of GitHub open source projects by Heini Fagerlund (@hfagerlund) in TeX, org, and PDF formats \cite{osprojects}. Created using Emacs.
+- *react-app-starter*
+   \paragraph{}
+   react-app-starter is a simple Dockerized React app skeleton to be used as a time-saving and easy to understand starter for new React projects \cite{react-app-starter}.
+   \paragraph{}
+   [[https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/creating-a-repository-from-a-template][How to use this repo as a template]]
 - *git-add-msg*
    \paragraph{}
    git-add-msg is a git extension that can be used to automatically update Trac tickets with comments without leaving the command-line interface \cite{git-add-msg}.
 - *blog*
    \paragraph{}
-   This (mirror) repository includes modualar scripts for a page scroller and page event analytics tracking \cite{blog}.
+   This (mirror) repository includes modular scripts for a page scroller and page event analytics tracking \cite{blog}.
 
 #+BEGIN_LaTeX
 \begin{sloppypar}
@@ -62,3 +79,4 @@
 \bibliography{opensource-bib}
 \end{sloppypar}
 #+END_LaTeX
+

@@ -1,21 +1,19 @@
-% Created 2019-02-13 Wed 02:59
+% Created 2021-08-22 Sun 14:54
+% Intended LaTeX compiler: pdflatex
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage{fixltx2e}
 \usepackage{graphicx}
+\usepackage{grffile}
 \usepackage{longtable}
-\usepackage{float}
 \usepackage{wrapfig}
 \usepackage{rotating}
 \usepackage[normalem]{ulem}
 \usepackage{amsmath}
 \usepackage{textcomp}
-\usepackage{marvosym}
-\usepackage{wasysym}
 \usepackage{amssymb}
+\usepackage{capt-of}
 \usepackage{hyperref}
-\tolerance=1000
 \usepackage{parskip}
 \setlength{\parskip}{20pt}
 \usepackage{underscore}
@@ -27,53 +25,76 @@
 \date{\today}
 \title{Open source projects by Heini Fagerlund (@hfagerlund)}
 \hypersetup{
-  pdfkeywords={},
-  pdfsubject={},
-  pdfcreator={Emacs 24.5.1 (Org mode 8.2.10)}}
+ pdfauthor={Heini Fagerlund},
+ pdftitle={Open source projects by Heini Fagerlund (@hfagerlund)},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 26.3 (Org mode 9.1.9)}, 
+ pdflang={English}}
 \begin{document}
 
 \maketitle
 
 \section{Projects by @hfagerlund}
-\label{sec-1}
+\label{sec:orgf2749c5}
 \begin{itemize}
-\item \textbf{machine-learning-classifier-iris}
-  \paragraph{}
-  A comparison of machine learning algorithms for making predictions written in Python (v3.7) and using a built-in dataset included with scikit-learn \cite{machinelearning}. Data visualizations are also included.
+\item \textbf{erlang-experiments}
 \paragraph{}
-  This repository contains new feature development continued from the Jupyter version \cite{jupyter}.
+The groundwork for a Dockerized Erlang app \cite{erlang}.
+\item \textbf{hellofromlua\_rock}
+\paragraph{}
+A custom Lua rock. \cite{luarock}. Usage is shown in the hello-lua demo \cite{lua}.
+\item \textbf{machine-learning-classifier-iris}
+\paragraph{}
+A comparison of machine learning algorithms for making predictions written in Python (v3.7) and using a built-in dataset included with scikit-learn \cite{machinelearning}. Data visualizations are also included.
+ \paragraph{}
+This repository contains new feature development continued from the Jupyter version \cite{jupyter}.
 \item \textbf{mkdocs-docskimmer}
 \paragraph{}
-docSkimmer is an accessible, responsive, minimalist theme originally built for the static documentation site-generator MkDocs \cite{mkdocs-docskimmer}. Visit the \href{http://bitsof.bytesofdesign.com/mkdocs-docskimmer/}{documentation site}.
+docSkimmer is an accessible, responsive, minimalist theme originally built for the static documentation site-generator MkDocs \cite{mkdocs-docskimmer}. A live demo is available at \href{http://bitsof.bytesofdesign.com/mkdocs-docskimmer/}{documentation site}.
 \paragraph{}
-The docSkimmer theme has also been ported for Jekyll.
+The docSkimmer theme has also been ported for Jekyll \cite{jekyll-docskimmer}.
 \item \textbf{mkdocs-docstyler-plugin}
 \paragraph{}
 docstyler is a plugin for MkDocs that adds persistent, preferred
 and/or alternate stylesheet links to custom MkDocs themes \cite{mkdocs-docstyler-plugin}.
 \item \textbf{jekyll-docskimmer-theme}
-   \paragraph{}
-  jekyll-docskimmer-theme is the official port of \href{https://github.com/hfagerlund/mkdocs-docskimmer}{docSkimmer theme} to Jekyll.
+ \paragraph{}
+jekyll-docskimmer-theme is the official port of \href{https://github.com/hfagerlund/mkdocs-docskimmer}{docSkimmer theme} to Jekyll \cite{jekyll-docskimmer}.
 \item \textbf{strip\_anchors}
-   \paragraph{}
-   Source code for the custom strip\_anchors Twig extension. This repository shows how the filter can be used in a Symfony 4 project to transform HTML content into valid RSS content for a feed \cite{stripanchors}.
+\paragraph{}
+Source code for the custom strip\_anchors Twig extension. This repository shows how the filter can be used in a Symfony 4 project to transform HTML content into valid RSS content for a feed \cite{stripanchors}.
 \item \textbf{elections-carousel-component}
-   \paragraph{}
-   This project is a component-based carousel presentation of election results data from a JSON API. Built using React and Webpack \cite{elections-carousel-component}.
+\paragraph{}
+This project is a component-based carousel presentation of election results data from a JSON API. Built using React and Webpack \cite{elections-carousel-component}.
+\item \textbf{elm-in-progress}
+\paragraph{}
+Experimentation in Elm v0.19.0.
+ \cite{elm}.
 \item \textbf{hfagerlund.github.io}
-   \paragraph{}
-   My GitHub Pages site which currently serves as a table of contents listing of my open-source projects on GitHub \cite{ghpages}.
+\paragraph{}
+My GitHub Pages site which currently serves as a table of contents listing of my open-source projects on GitHub \cite{ghpages}.
+\item \textbf{osprojects}
+\paragraph{}
+A catalog of GitHub open source projects by Heini Fagerlund (@hfagerlund) in \TeX{}, org, and PDF formats \cite{osprojects}. Created using Emacs.
+\item \textbf{react-app-starter}
+\paragraph{}
+react-app-starter is a simple Dockerized React app skeleton to be used as a time-saving and easy to understand starter for new React projects \cite{react-app-starter}.
+\paragraph{}
+\href{https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/creating-a-repository-from-a-template}{How to use this repo as a template}
 \item \textbf{git-add-msg}
-   \paragraph{}
-   git-add-msg is a git extension that can be used to automatically update Trac tickets with comments without leaving the command-line interface \cite{git-add-msg}.
+\paragraph{}
+git-add-msg is a git extension that can be used to automatically update Trac tickets with comments without leaving the command-line interface \cite{git-add-msg}.
 \item \textbf{blog}
-   \paragraph{}
-   This (mirror) repository includes modualar scripts for a page scroller and page event analytics tracking \cite{blog}.
+\paragraph{}
+This (mirror) repository includes modular scripts for a page scroller and page event analytics tracking \cite{blog}.
 \end{itemize}
 
+\begin{LaTeX}
 \begin{sloppypar}
 \bibliographystyle{plain}
 \bibliography{opensource-bib}
 \end{sloppypar}
-% Emacs 24.5.1 (Org mode 8.2.10)
+\end{LaTeX}
+Emacs 26.3 (Org mode 9.1.9)
 \end{document}

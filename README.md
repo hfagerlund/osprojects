@@ -4,14 +4,26 @@ Catalog of open source projects by Heini Fagerlund (@hfagerlund).
 
 ## Requirements
 
-* Emacs **v24.5** - Note: this is the only Emacs version compatible with Auctex<sup>[1]</sup> (on Windows)
-  * Org-mode v8.2.10
+* Emacs **v24.5**<sup>[1]</sup> or higher
+  * Org-mode >= v8.2.10
 
 ## Quick start
 
 ```
+# clone the repository
+$ git clone https://github.com/hfagerlund/osprojects.git
+$ cd osprojects
+
+# only the .org and .bib file are required as 'input'
+# all of the other formats are generated (ie. 'outputs')
+$ cd ../
+$ mkdir input
+$ cd input
+$ cp ../osprojects/osprojects.org .
+$ cp ../osprojects/opensource-bib.bib .
+
 # open file (without initializations)
-emacs -q --no-splash osprojects.org
+$ emacs -q --no-splash osprojects.org
 
 # version info of org-mode
 M-x org-version
@@ -36,4 +48,4 @@ $ pdflatex osprojects
 Copyright (c) 2019 Heini Fagerlund. Licensed under the [3-Clause BSD License](https://github.com/hfagerlund/osprojects/blob/master/LICENSE).
 
 ## Footnotes
-[1] "Download for MS Windows", AUCTeX – Sophisticated document creation, https://www.gnu.org/software/auctex/download-for-windows.html, (2017/01/11).
+[1] Note: this is the only Emacs version compatible with Auctex on Windows. "Download for MS Windows", AUCTeX – Sophisticated document creation, https://www.gnu.org/software/auctex/download-for-windows.html, (2017/01/11).
