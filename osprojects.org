@@ -22,6 +22,9 @@
 #+BIBLIOGRAPHY: opensource-bib plain
 
 * Projects by @hfagerlund
+- *quiz_app*
+   \paragraph{}
+   A 'quiz' app with a custom GraphQL API backend (using Laravel 10), and Vue3 front-end. Built using Sail (docker-compose) running a MySQL database \cite{quiz-app}.
 - *erlang-experiments*
    \paragraph{}
    The groundwork for a Dockerized Erlang app \cite{erlang}.
