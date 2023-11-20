@@ -28,6 +28,9 @@
 - *docker-for-docskimmer*
    \paragraph{}
    This project enables users to test the compatibility of various [[https://github.com/hfagerlund/mkdocs-docskimmer][docSkimmer theme]] and MkDocs versions using Docker. \cite{docker}.
+- *hey-haskell*
+   \paragraph{}
+   A learning by doing approach to introduce functional programming using Haskell \cite{hey-haskell}.
 - *erlang-experiments*
    \paragraph{}
    The groundwork for a Dockerized Erlang app \cite{erlang}.
