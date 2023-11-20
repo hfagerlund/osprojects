@@ -25,6 +25,9 @@
 - *quiz_app*
    \paragraph{}
    A 'quiz' app with a custom GraphQL API backend (using Laravel 10), and Vue3 front-end. Built using Sail (docker-compose) running a MySQL database \cite{quiz-app}.
+- *docker-for-docskimmer*
+   \paragraph{}
+   This project enables users to test the compatibility of various [[https://github.com/hfagerlund/mkdocs-docskimmer][docSkimmer theme]] and MkDocs versions using Docker. \cite{docker}.
 - *erlang-experiments*
    \paragraph{}
    The groundwork for a Dockerized Erlang app \cite{erlang}.
