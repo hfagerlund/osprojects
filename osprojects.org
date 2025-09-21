@@ -1,7 +1,7 @@
 #+TITLE: Open source projects by Heini Fagerlund (@hfagerlund)
 #+DATE: \today
 #+AUTHOR: Heini Fagerlund
-#+EMAIL: 
+#+EMAIL:
 #+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:nil arch:headline
 #+OPTIONS: author:t c:nil creator:comment d:(not "LOGBOOK") date:t
 #+OPTIONS: e:t email:nil f:t inline:t num:t p:nil pri:nil stat:t
@@ -22,6 +22,12 @@
 #+BIBLIOGRAPHY: opensource-bib plain
 
 * Projects by @hfagerlund
+- *bucket-list-app*
+  \paragraph{}
+  A simplified 'to-do' list app demonstration of TypeScript, Node.js, and
+  Jasmine at work together. JSDOM and Jasmine spies are used to test
+  interactions such as entering text into a form field and clicking
+  the submit button \cite{bucket-list-app}.
 - *quiz_app*
    \paragraph{}
    A 'quiz' app with a custom GraphQL API backend (using Laravel 10), and Vue3 front-end. Built using Sail (docker-compose) running a MySQL database \cite{quiz-app}.
@@ -78,9 +84,7 @@
 - *git-add-msg*
    \paragraph{}
    git-add-msg is a git extension that can be used to automatically update Trac tickets with comments without leaving the command-line interface \cite{git-add-msg}.
-- *blog*
-   \paragraph{}
-   This (mirror) repository includes modular scripts for a page scroller and page event analytics tracking \cite{blog}.
+
 
 #+BEGIN_LaTeX
 \begin{sloppypar}
@@ -88,4 +92,3 @@
 \bibliography{opensource-bib}
 \end{sloppypar}
 #+END_LaTeX
-

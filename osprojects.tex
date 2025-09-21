@@ -1,16 +1,14 @@
-% Created 2023-11-19 Sun 22:06
+% Created 2025-09-20 Sat 23:03
 % Intended LaTeX compiler: pdflatex
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{graphicx}
-\usepackage{grffile}
 \usepackage{longtable}
 \usepackage{wrapfig}
 \usepackage{rotating}
 \usepackage[normalem]{ulem}
 \usepackage{amsmath}
-\usepackage{textcomp}
 \usepackage{amssymb}
 \usepackage{capt-of}
 \usepackage{hyperref}
@@ -29,15 +27,20 @@
  pdftitle={Open source projects by Heini Fagerlund (@hfagerlund)},
  pdfkeywords={},
  pdfsubject={},
- pdfcreator={Emacs 26.3 (Org mode 9.1.9)}, 
+ pdfcreator={Emacs 30.1 (Org mode 9.7.11)}, 
  pdflang={English}}
 \begin{document}
 
 \maketitle
-
 \section{Projects by @hfagerlund}
-\label{sec:org210082f}
+\label{sec:orge5d0d8b}
 \begin{itemize}
+\item \textbf{bucket-list-app}
+\paragraph{}
+A simplified 'to-do' list app demonstration of TypeScript, Node.js, and
+Jasmine at work together. JSDOM and Jasmine spies are used to test
+interactions such as entering text into a form field and clicking
+the submit button \cite{bucket-list-app}.
 \item \textbf{quiz\_app}
 \paragraph{}
 A 'quiz' app with a custom GraphQL API backend (using Laravel 10), and Vue3 front-end. Built using Sail (docker-compose) running a MySQL database \cite{quiz-app}.
@@ -94,10 +97,8 @@ react-app-starter is a simple Dockerized React app skeleton to be used as a time
 \item \textbf{git-add-msg}
 \paragraph{}
 git-add-msg is a git extension that can be used to automatically update Trac tickets with comments without leaving the command-line interface \cite{git-add-msg}.
-\item \textbf{blog}
-\paragraph{}
-This (mirror) repository includes modular scripts for a page scroller and page event analytics tracking \cite{blog}.
 \end{itemize}
+
 
 \begin{LaTeX}
 \begin{sloppypar}
@@ -105,5 +106,5 @@ This (mirror) repository includes modular scripts for a page scroller and page e
 \bibliography{opensource-bib}
 \end{sloppypar}
 \end{LaTeX}
-Emacs 26.3 (Org mode 9.1.9)
+Emacs 30.1 (Org mode 9.7.11)
 \end{document}
