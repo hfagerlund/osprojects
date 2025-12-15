@@ -2,6 +2,8 @@
 
 Catalog of open source projects by Heini Fagerlund (@hfagerlund).
 
+*([Typst version](https://github.com/hfagerlund/osprojects_typst) also available.)*
+
 ## Requirements
 
 * Emacs **v24.5**<sup>[1]</sup> or higher
